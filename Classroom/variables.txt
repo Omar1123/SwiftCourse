@@ -1,0 +1,16 @@
+import UIKit
+
+//Variables
+
+var message = "Hello, swift"
+
+//Operators(Unary(1 target), Binary(2 target), Ternary(3 targets)
+
+var amICool = true //Unary
+amICool = !amICool //Binary
+
+var feelGoodAboutMySelft = true //Ternary
+feelGoodAboutMySelft  = amICool ? true : false //Ternary
+
+var bankAccountBalance = 100
+var cashRegisterMessage = bankAccountBalance  >= 150 ? "You just bought the item" : "You are broke as a joke"
